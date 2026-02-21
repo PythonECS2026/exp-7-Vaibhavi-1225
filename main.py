@@ -2,7 +2,8 @@
 # update, and manipulate a dictionary of student records,
 # including their grades and attendance.
 # Coder:
-# Date:}
+# Date:
+  
   students = {
     "251S005": {"name": "Sameer",  "grade": "A",  "attendance": 68},
     "251S026": {"name": "Katrina", "grade": "A-", "attendance": 55},
@@ -39,8 +40,6 @@ if delete_uin == "251S055":
         sorted(students.items(), key=lambda item: item[1]["attendance"])
     )
 print(f"Final Student Records: {students}")
-
-       
 # Write your code here
 # TODO: Add a new Student Record 
 
