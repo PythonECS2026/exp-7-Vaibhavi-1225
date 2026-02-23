@@ -12,5 +12,4 @@
 # TODO: Remove Student with UIN 251P026
 
 
-# Stop coding here
-print(f"Final Student Records: {students_records}")
+# Stop coding here
